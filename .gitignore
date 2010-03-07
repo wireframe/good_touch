@@ -17,5 +17,7 @@ tmtags
 coverage
 rdoc
 pkg
+*.log
+*.sqllite3
 
 ## PROJECT::SPECIFIC

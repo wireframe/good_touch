@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "good_touch"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "ryan@socialcast.com"
+    gem.summary = %Q{ Rails 'touch' method without all the overhead}
+    gem.description = %Q{ Update your timestamp attributes without invoking all ActiveRecord callbacks}
+    gem.email = "ryan@codecrate.com"
     gem.homepage = "http://github.com/wireframe/good_touch"
     gem.authors = ["Ryan Sonnek"]
+    gem.add_dependency "activerecord", ">= 2.1.0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
