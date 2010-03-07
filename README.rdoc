@@ -1,6 +1,6 @@
 = good_touch
 
-Description goes here.
+Update ActiveRecord timestamps without triggering callbacks.
 
 == Note on Patches/Pull Requests
  
