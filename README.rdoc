@@ -2,6 +2,11 @@
 
 Update ActiveRecord timestamps without triggering callbacks.
 
+= Installation
+
+available on gemcutter:
+http://rubygems.org/gems/good_touch
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
