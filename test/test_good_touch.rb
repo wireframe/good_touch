@@ -35,5 +35,15 @@ class TestGoodTouch < Test::Unit::TestCase
         @post.reload.posted_at
       end
     end
+
+    context "calling good_touch with a value" do
+      setup do
+        @time = Date.parse("01/01/2010 12:00")
+        @post.good_touch :updated_at, @time
+      end
+      should_change "updated_at timestamp", :to => @time do
+        @post.reload.updated_at
+      end
+    end
   end
 end
