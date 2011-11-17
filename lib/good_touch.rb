@@ -1,3 +1,5 @@
+require "good_touch/version"
+
 module GoodTouch
   module InstanceMethods
     #touch a record without triggering callbacks
