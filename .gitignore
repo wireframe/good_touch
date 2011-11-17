@@ -1,23 +1,35 @@
-## MAC OS
-.DS_Store
+# rcov generated
+coverage
 
-## TEXTMATE
-*.tmproj
-tmtags
+# rdoc generated
+rdoc
 
-## EMACS
-*~
-\#*
-.\#*
+# yard generated
+doc
+.yardoc
 
-## VIM
+# bundler
+.bundle
+Gemfile.lock
+
+# jeweler generated
+pkg
+
+# test files
+test/*.log
+test/*.sqlite3
+
+# For vim:
 *.swp
 
-## PROJECT::GENERAL
-coverage
-rdoc
-pkg
-*.log
-*.sqllite3
+# For MacOS:
+.DS_Store
 
-## PROJECT::SPECIFIC
+# git files
+*.orig
+
+# rails files
+tmp
+log
+*.log
+*.sqlite3
