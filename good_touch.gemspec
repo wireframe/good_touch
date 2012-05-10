@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  s.add_runtime_dependency(%q<activerecord>, [">= 2.1.0"])
+  s.add_runtime_dependency(%q<activerecord>, ["< 3.1.0"])
   s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
   s.add_development_dependency(%q<rake>, [">= 0.9.2.2"])
   s.add_development_dependency(%q<sqlite3>, ['= 1.3.4'])
